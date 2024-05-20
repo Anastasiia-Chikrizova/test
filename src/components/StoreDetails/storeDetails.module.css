@@ -1,0 +1,53 @@
+.storeDetails {
+  padding: 15px;
+
+  border: 1px solid var(--border-card-color);
+  border-radius: 8px;
+}
+.storeContainer {
+  gap: 20px;
+}
+
+.storeContainerTablet {
+  display: flex;
+  gap: 20px;
+}
+
+.cardHeader {
+  flex-grow: 1;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+
+  font-size: 10px;
+}
+
+.cardFooterTablet {
+  font-size: 12px;
+}
+
+.link {
+  text-align: start;
+}
+
+.error {
+  min-width: 300px;
+}
